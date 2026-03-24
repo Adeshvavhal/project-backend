@@ -10247,8 +10247,6 @@ app.get("/policy/employee-ack/:employeeId", async (req, res) => {
     });
   }
 });
-
-//add to test git 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
 
